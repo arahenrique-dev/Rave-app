@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "rave-app",
+    "name": "RAVE APP",
     "slug": "rave-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,23 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.henridevara.raveapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8609bd6a-8e30-4381-bdb9-8e5d74d4edcf"
+      }
+    },
+    "owner": "henridevara",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8609bd6a-8e30-4381-bdb9-8e5d74d4edcf"
     }
   }
 }
